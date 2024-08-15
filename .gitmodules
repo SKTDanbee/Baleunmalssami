@@ -1,0 +1,6 @@
+[submodule "Ansim_KeyPad_Backend"]
+	path = Ansim_KeyPad_Backend
+	url = https://github.com/SKTDanbee/Ansim_KeyPad_Backend
+[submodule "Ansim_KeyPad_Frontend"]
+	path = Ansim_KeyPad_Frontend
+	url = https://github.com/SKTDanbee/Ansim_KeyPad_Frontend
