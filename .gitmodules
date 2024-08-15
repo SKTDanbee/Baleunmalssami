@@ -7,3 +7,6 @@
 [submodule "Ansim_KeyPad_AI"]
 	path = Ansim_KeyPad_AI
 	url = https://github.com/SKTDanbee/Ansim_KeyPad_AI
+[submodule "Ansim_KeyPad_Keypad"]
+	path = Ansim_KeyPad_Keypad
+	url = https://github.com/SKTDanbee/Ansim_KeyPad_Keypad
