@@ -1,25 +1,30 @@
 **SKT FLY AI Challenger 5기**
 
-# Ansim KeyPad 👋
+# Ansim KeyPad 👋⌨️
 사이버상 초등생의 비속어 사용 및 언어적 폭력 차단을 위한 AI 기반 키패드 서비스 입니다.
 
 ## 2. 프로젝트 개요
 ### 2-1. 제안 배경
-- 초등학생 언어습관 개선
-- 사이버 폭력 해결
+- 2023년 하반기에 교육부가 진행한 학교폭력 실태조사에서 사이버 폭력 중 언어폭력이 37.1%로 1위를 차지하고, 초중고 학생들 중 초등학생 피해응답률이 최대 9배 높음 
+- 언어습관이 형성되는 시기인 초등학생들 중심으로 사이버 폭력 해결이 필수적
 
 ### 2-2. 목표
-- To be updated
+- 초등학생 : 사이버 상 비속어 사용 근절을 통해 올바른 언어 습관을 형성하고, 언어 폭력 완화로 사이버 폭력 해결
+- 보호자 : 자녀의 언어 사용 습관을 점검 및 교육
 
 ## 3. 시스템 아키텍쳐
 
 To be updated
 
+[Keypad]
+
+[App Report]
 
 ### 3-1. 구현 툴
 
 | Category  | Technologies                                        |
 |-----------|-----------------------------------------------------|
+| Keypad    | Android Studio                                      |
 | Frontend  | Flutter                                             |
 | Backend   | Spring, MySQL, FastAPI                              |
 | CI/CD     | GitHub Actions                                      |
@@ -40,10 +45,10 @@ To be updated
 
 ## 4. 기술
 ### 4-1. emotion classification
-- 8가지 윤리 및 44가지 감정 상황에 따른 텍스트 데이터 약 1만개 문장으로 KcELECTRA 학습
+- 텍스트 윤리검증 데이터 약 1만개 문장으로 KcELECTRA 학습하여 8가지 윤리 및 44가지 감정 상황 태
 - To be updated
 
-### 4-2. BERT
+### 4-2. KoSimCSE-bert-multitask 
 - To be updated
 
 ### 4-3. GPT fine tuning
