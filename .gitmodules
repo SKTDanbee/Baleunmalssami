@@ -4,7 +4,7 @@
 	branch = main
 [submodule "Ansim_KeyPad_Frontend"]
 	path = Ansim_KeyPad_Frontend
-	url = https://github.com/SKTDanbee/Ansim_KeyPad_Frontend
+	url = https://github.com/SKTDanbee/Ansim_Keypad_Frontend
 	branch = main
 [submodule "Ansim_KeyPad_AI"]
 	path = Ansim_KeyPad_AI
