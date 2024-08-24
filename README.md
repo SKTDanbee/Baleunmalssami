@@ -12,25 +12,28 @@
 - 초등학생 : 사이버 상 비속어 사용 근절을 통해 올바른 언어 습관을 형성하고, 언어 폭력 완화로 사이버 폭력 해결
 - 보호자 : 자녀의 언어 사용 습관을 점검 및 교육
 
-## 3. 시스템 아키텍쳐
+## 3. 기능
+![image](https://github.com/user-attachments/assets/289e46d5-7fd1-466a-8951-d443ec2282a7)
 
-To be updated
+## 4. 시스템 아키텍쳐
+![22](https://github.com/user-attachments/assets/655f243a-7d4b-46d1-8ea5-f331839a4dcc)
+
 
 [Keypad]
 
 [App Report]
 
-### 3-1. 구현 툴
+### 4-1. 구현 툴
 
 | Category  | Technologies                                        |
 |-----------|-----------------------------------------------------|
 | Keypad    | Android Studio                                      |
 | Frontend  | Flutter                                             |
-| Backend   | Spring, MySQL, FastAPI                              |
+| Backend   | Azure, FastAPI, MySQL                               |
 | CI/CD     | GitHub Actions                                      |
 
 
-### 3-2. AI, API
+### 4-2. AI, API
 
 To be updated
 
@@ -43,20 +46,20 @@ To be updated
 | APIs                     | NAVER CLOVA voice, NAVER speech, Midjourney API    |
 -->
 
-## 4. 기술
-### 4-1. emotion classification
+## 5. 기술
+### 5-1. emotion classification
 - 텍스트 윤리검증 데이터 약 1만개 문장으로 KcELECTRA 학습하여 8가지 윤리 및 44가지 감정 상황 태
 - To be updated
 
-### 4-2. KoSimCSE-bert-multitask 
+### 5-2. KoSimCSE-bert-multitask 
 - To be updated
 
-### 4-3. GPT fine tuning
+### 5-3. GPT fine tuning
 - gpt 3.5 모델을 활용
 - To be updated
   
 
-## 5. 팀원 소개
+## 6. 팀원 소개
 
 | 이름   | 역할                                       | 구현                                       |
 | ------ | ------------------------------------------ | ------------------------------------------ |
@@ -67,5 +70,5 @@ To be updated
 | [옥지원](https://github.com/JiWonOck) 😯 | 데이터, 키패드             | To be updated |
 
 
-## 6. Link
+## 7. Link
 To be updated
