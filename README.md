@@ -1,7 +1,7 @@
 **SKT FLY AI Challenger 5기**
 
 # Ansim KeyPad 👋⌨️
-사이버상 초등생의 비속어 사용 및 언어적 폭력 차단을 위한 AI 기반 키패드 서비스 입니다.
+바른말싸미: 사이버상 초등생의 언어 폭력 방지를 위한 AI 기반 키패드 서비스 입니다.
 
 ## 2. 프로젝트 개요
 ### 2-1. 제안 배경
@@ -27,47 +27,38 @@
 
 | Category  | Technologies                                        |
 |-----------|-----------------------------------------------------|
+| AI model  | BERT, ELECTRA, GPT, RAG                             |
 | Keypad    | Android Studio                                      |
-| Frontend  | Flutter                                             |
+| Frontend  | Flutter, Figma                                      |
 | Backend   | Azure, FastAPI, MySQL                               |
 | CI/CD     | GitHub Actions                                      |
 
 
-### 4-2. AI, API
 
-To be updated
+## 5. AI 기술
+### 5-1. 데이터 전처리 : 감정 태깅
+- 텍스트 윤리검증 데이터 약 36만 개 사용
+- [KcELECTRA](https://github.com/Beomi/KcELECTRA) 를 사용하여 8가지 윤리 및 44가지 감정 라벨링
 
-<!--
-| Category                 | Technologies/Services                              |
-|--------------------------|----------------------------------------------------|
-| Emotion AI               | KoBert emotion predict                             |
-| Vision AI & Rendering    | Animated drawings                                  |
-| Chat AI                  | GPT 3.5-turbo + finetuning                         |
-| APIs                     | NAVER CLOVA voice, NAVER speech, Midjourney API    |
--->
+### 5-2. 감정과 윤리 분류를 한번에 하는 멀티태스킹이 가능한 BERT
+- [KoSimCSE-BERT-multitask](https://huggingface.co/BM-K/KoSimCSE-bert-multitask) 활용
 
-## 5. 기술
-### 5-1. emotion classification
-- 텍스트 윤리검증 데이터 약 1만개 문장으로 KcELECTRA 학습하여 8가지 윤리 및 44가지 감정 상황 태
-- To be updated
-
-### 5-2. KoSimCSE-bert-multitask 
-- To be updated
-
-### 5-3. GPT fine tuning
-- gpt 3.5 모델을 활용
-- To be updated
-  
+### 5-3. 프롬프트
+- gpt-4o 모델을 활용
+- 레포트를 위한 3개의 프롬프트 템플릿 제작
+  - 사용자 : 언어습관 레포트
+  - 보호자 : 사용자의 언어습관 레포트, 사이버 폭력 위험 레포트
+    
 
 ## 6. 팀원 소개
 
-| 이름   | 역할                                       | 구현                                       |
-| ------ | ------------------------------------------ | ------------------------------------------ |
-| [김현동](https://github.com/miffDONG) 🤨 | **팀장**, AI    | To be updated |
-| [김호준](https://github.com/Hxjxxn95) 😊 | AI, 키패드 | To be updated |
-| [배성욱](https://github.com/uksungbae) 😁 | 백엔드, 프론트엔드                     | To be updated |
-| [손서희](https://github.com/sh1257) 😘 | 프론트엔드, 디자인               | To be updated |
-| [옥지원](https://github.com/JiWonOck) 😯 | 데이터, 키패드             | To be updated |
+| 이름   | 역할                                       | 
+| ------ | ------------------------------------------ | 
+| [김현동](https://github.com/miffDONG) 🤨 |PM, AI    |
+| [김호준](https://github.com/Hxjxxn95) 😊 | AI, 키패드 | 
+| [배성욱](https://github.com/uksungbae) 😁 | 백엔드, 프론트엔드                     | 
+| [손서희](https://github.com/sh1257) 😘 | 프론트엔드, 디자인               |
+| [옥지원](https://github.com/JiWonOck) 😯 | 발표, 데이터             | 
 
 
 ## 7. Link
