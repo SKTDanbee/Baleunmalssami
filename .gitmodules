@@ -14,3 +14,7 @@
 	path = Baleunmalssami_AI
 	url = https://github.com/SKTDanbee/Baleunmalssami_AI
 	branch = main
+[submodule "Baleunmalssami_LLM_Azure"]
+	path = Baleunmalssami_LLM_Azure
+	url = https://github.com/SKTDanbee/Baleunmalssami_LLM_Azure
+	branch = main
