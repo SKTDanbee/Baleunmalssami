@@ -1,6 +1,10 @@
-[submodule "Baleunmalssami_Keypad"]
-	path = Baleunmalssami_Keypad
-	url = https://github.com/SKTDanbee/Baleunmalssami_Keypad
+[submodule "Baleunmalssami_LLM_Azure"]
+	path = Baleunmalssami_LLM_Azure
+	url = https://github.com/SKTDanbee/Baleunmalssami_LLM_Azure
+	branch = main
+[submodule "Baleunmalssami_AI"]
+	path = Baleunmalssami_AI
+	url = https://github.com/SKTDanbee/Baleunmalssami_AI
 	branch = main
 [submodule "Baleunmalssami_Backend"]
 	path = Baleunmalssami_Backend
@@ -10,11 +14,7 @@
 	path = Baleunmalssami_Frontend
 	url = https://github.com/SKTDanbee/Baleunmalssami_Frontend
 	branch = main
-[submodule "Baleunmalssami_LLM_Azure"]
-	path = Baleunmalssami_LLM_Azure
-	url = https://github.com/SKTDanbee/Baleunmalssami_LLM_Azure
-	branch = main
-[submodule "Baleunmalssami_AI"]
-	path = Baleunmalssami_AI
-	url = https://github.com/SKTDanbee/Baleunmalssami_AI
+[submodule "Baleunmalssami_Keypad"]
+	path = Baleunmalssami_Keypad
+	url = https://github.com/SKTDanbee/Baleunmalssami_Keypad
 	branch = main
