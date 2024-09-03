@@ -1,0 +1,16 @@
+[submodule "Baleunmalssami_Keypad"]
+	path = Baleunmalssami_Keypad
+	url = https://github.com/SKTDanbee/Baleunmalssami_Keypad
+	branch = main
+[submodule "Baleunmalssami_Backend"]
+	path = Baleunmalssami_Backend
+	url = https://github.com/SKTDanbee/Baleunmalssami_Backend
+	branch = main
+[submodule "Baleunmalssami_Frontend"]
+	path = Baleunmalssami_Frontend
+	url = https://github.com/SKTDanbee/Baleunmalssami_Frontend
+	branch = main
+[submodule "Baleunmalssami_AI"]
+	path = Baleunmalssami_AI
+	url = https://github.com/SKTDanbee/Baleunmalssami_AI
+	branch = main
